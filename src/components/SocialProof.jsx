@@ -1,0 +1,54 @@
+import React from 'react';
+
+export default function SocialProof() {
+  return (
+    <section className="bg-white">
+      {/* Testimonial */}
+      <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20">
+        <h2 className="text-center text-2xl font-semibold text-slate-900 sm:text-3xl">
+          What Early Users Are Saying
+        </h2>
+        <div className="mx-auto mt-10 max-w-3xl rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-8 shadow-sm">
+          <p className="text-lg italic text-slate-800">
+            "Finally, I can rehearse hearings as if I'm in real courtroom – the AI element is uncanny."
+          </p>
+          <p className="mt-4 text-right text-sm font-medium text-slate-600">– Advocate S. Ramesh, Chennai</p>
+        </div>
+      </div>
+
+      {/* CTA Banner */}
+      <div className="relative isolate overflow-hidden bg-[#0B3D91]">
+        <div className="mx-auto max-w-7xl px-6 py-14 sm:py-16">
+          <div className="mx-auto max-w-3xl text-center text-white">
+            <h3 className="text-2xl font-semibold sm:text-3xl">Ready to Practice Like a Pro?</h3>
+            <p className="mt-3 text-white/90">
+              Join the waitlist and get exclusive early access.
+            </p>
+            <a
+              href="/signup"
+              className="mt-6 inline-flex items-center justify-center rounded-md bg-white px-6 py-3 font-medium text-[#0B3D91] shadow-sm transition hover:shadow-md"
+            >
+              Join Waitlist
+            </a>
+          </div>
+        </div>
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-black/10 to-transparent" />
+      </div>
+
+      {/* Footer */}
+      <footer className="bg-white py-10">
+        <div className="mx-auto max-w-7xl px-6 text-center">
+          <div className="flex items-center justify-center gap-3">
+            <img src="/legally-ai-logo.svg" alt="Legally AI" className="h-7 w-auto" />
+            <span className="text-sm font-medium text-slate-700">Legally AI</span>
+          </div>
+          <p className="mt-3 text-sm text-slate-500">© 2025 Legally AI. All rights reserved.</p>
+          <div className="mt-4 flex items-center justify-center gap-6 text-sm">
+            <a href="/privacy" className="text-slate-600 hover:text-[#0B3D91]">Privacy Policy</a>
+            <a href="/terms" className="text-slate-600 hover:text-[#0B3D91]">Terms of Use</a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  );
+}
