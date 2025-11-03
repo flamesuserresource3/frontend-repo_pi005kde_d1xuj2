@@ -38,9 +38,8 @@ export default function SocialProof() {
       {/* Footer */}
       <footer className="bg-white py-10">
         <div className="mx-auto max-w-7xl px-6 text-center">
-          <div className="flex items-center justify-center gap-3">
-            <img src="/legally-ai-logo.svg" alt="Legally AI" className="h-7 w-auto" />
-            <span className="text-sm font-medium text-slate-700">Legally AI</span>
+          <div className="mx-auto flex h-9 w-9 items-center justify-center rounded-full bg-[#0B3D91]/10 text-[#0B3D91]">
+            <span className="text-sm font-semibold">LA</span>
           </div>
           <p className="mt-3 text-sm text-slate-500">© 2025 Legally AI. All rights reserved.</p>
           <div className="mt-4 flex items-center justify-center gap-6 text-sm">
